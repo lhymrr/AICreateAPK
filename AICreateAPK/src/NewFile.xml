@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	目录结构
+
+	<Create_APK_in_Half_AI>
+		目录
+		主目录
+
+		<bin>
+
+			<apkbuilderforhalfai.bat>文件
+				修改过的apkbuilder文件
+			</apkbuilderforhalfai.bat>
+
+			<classes.dex>文件
+				编译好的class文件包
+			</classes.dex>
+
+			<resources.ap_>
+				打包好的资源文件
+			</resources.ap_>
+		</bin>
+
+		<properties_files>
+			目录
+			<letv.properties>
+				项目中的配置文件
+			</letv.properties>
+
+			<weibo4j.properties>
+				微博配置文件
+			</weibo4j.properties>
+
+			<any.properties>
+				任何配置文件，均放到此目录中。例如开心微博的配置文件
+			</any.properties>
+		</properties_files>
+
+		<signerAPK>目录
+			签名后的APK文件存放目录
+		</signerAPK>
+
+		<temp>目录
+			临时文件存放目录
+		</temp>
+
+		<tools_sc_lib>目录
+			库文件存放目录
+		</tools_sc_lib>
+
+		<ClickMe.bat>
+			程序入口
+		</ClickMe.bat>
+
+		<HalfAI.json>
+			自动打包工具配置文件
+		</HalfAI.json>
+
+		<letvAndroidClientKey.keystore>
+			乐视网签名文件
+		</letvAndroidClientKey.keystore>
+
+		<log.txt>
+			日志输出文件
+		</log.txt>
+
+		<properties_config.json>
+			渠道号配置文件，将所有渠道号以JSONArray格式书写
+		</properties_config.json>
+
+		<tools_sc.jar>
+			项目运行时文件
+		</tools_sc.jar>
+
+
+
+	</Create_APK_in_Half_AI>
+</root>
